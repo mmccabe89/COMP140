@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #FFFFFF;
+    color: #666666;
+    font-family: verdana, ariel, sans-serif;
+    background-image: url(background.jpg);
+}
+
+header{
+    background-color: #000033;
+    color: #FFFFFF;
+    font-family: georgia, serif;
+}
+
+h1{
+    line-height: 200%;
+    background-image: url(sunset.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-left: 20px;
+    height: 72px;
+    margin-bottom: 0;
+}
+
+nav{
+    float: left;
+    width: 160px;
+    padding-top: 20px;
+    padding-right: 5px;
+    padding-left: 1px;
+    font-weight: bold;
+}
+
+nav a{
+    text-decoration: none;
+    
+}
+
+nav ul{
+    margin: none;
+    padding: none;
+    list-style-type: none;
+}
+
+nav a:link{
+    color: #000033;
+}
+
+nav a:visited{
+    color: #344873;
+}
+
+nav a:hover{
+    color: #FFFFFF;
+}
+
+h2{
+    color: #3399CC;
+    font-family: georgia, serif;
+}
+
+h3{
+    color: #000033;
+}
+
+main{
+    
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    display: block;
+    margin-left: 170px;
+    background-color: #FFFFFF;
+}
+
+dt{
+    color: #000033;
+    font-weight: bold;
+    font-size: 1.2em
+}
+
+.resort{
+    color: #000033;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+footer{
+    font-size: .70em;
+    font-style: italic;
+    text-align: center;
+    padding: 10px;
+    margin-left: 170px;
+    background-color: #FFFFFF;
+}
+
+#wrapper{
+    background-color: #90C7E3;
+    border: 1px red;
+    width: 80%;
+    min-width: 700px;
+    max-width: 1024px;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: 3px 3px 3px #333; 
+}
+
+#homehero{
+    height: 300px;
+    background-image: url(coast.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-left: 170px;
+}
+
+#yurthero{
+    height: 300px;
+    background-image: url(yurt.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-left: 170px;
+}
+
+#trailhero{
+    height: 300px;
+    background-image: url(trail.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-left: 170px;
+}
+
+header, nav, main, footer{
+    display: block;
+}
